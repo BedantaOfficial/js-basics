@@ -25,3 +25,31 @@ const myFunction = function(){
 }
 
 console.log(typeof myFunction);
+
+
+//Memories
+
+// stack(primitive datatype used stack memory)  Heap(non-primitive or reference datatype used heap memory)
+
+let myName = "Bedanta"
+let anotherName = myName
+
+anotherName = "Bed"
+console.log(myName);
+console.log(anotherName);
+
+
+
+
+
+let userOne = {
+    email: "bedanta@gmail.com",
+    upi: "user@sbi" 
+} 
+
+let userTwo = userOne
+
+userTwo.email = "goswami@gmail.com"
+
+console.log(userOne.email);
+console.log(userTwo.email);
